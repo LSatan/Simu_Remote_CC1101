@@ -72,8 +72,11 @@ The receiving is flawless, clean and perfect. Everything that is output has been
 
 The two first timings sent by the remote control randomly vary each time you press a button.
 However, this always gives a total of 26500 microseconds.
+
 example 1: timing 1 = 1800, timing 2 = 24700, total 26500 microseconds,
+
 Example 2: timing 1 = 8000, timing 2 = 18500, total 26500 microseconds.
+
 Example 3: timing 1 =  950, timing 2 = 25550, total 26500 microseconds.
 
 An initialization sequence is then sent,
