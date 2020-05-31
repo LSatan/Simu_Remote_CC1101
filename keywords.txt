@@ -1,0 +1,12 @@
+Simu_Remote_CC1101	KEYWORD1
+simu	KEYWORD1
+Init	KEYWORD2
+enableTransmit	KEYWORD2
+enableReceive	KEYWORD2
+disableReceive	KEYWORD2
+receive	KEYWORD2
+received_code	KEYWORD2
+clear_received	KEYWORD2
+add_remote	KEYWORD2
+transmit	KEYWORD2
+btn_transmit	KEYWORD2
