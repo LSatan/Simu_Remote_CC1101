@@ -4,11 +4,17 @@
 Completely implemented.
 
 Sending and receiving Simu:
+
 Radio motor Hz / Hz02 / EHz /
+
 Door control RSA /
+
 Radio receiver SA Hz /
+
 Garage door operator GM800 / GM1000
+
 Micro radio receiver for lighting
+
 
 Supposedly compatible with some Somfy devices. (Not tested)
 
