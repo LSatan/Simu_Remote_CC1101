@@ -19,12 +19,9 @@ Micro radio receiver for lighting
 Supposedly compatible with some Somfy devices. (Not tested)
 
 Attention: The library may only be used for your own system. For example to check their security. You may make yourself 
-
 vulnerable if you use it on other systems without permission! Use at your own risk!
 
-
 This library can serve as an interface for your smart home. You can also build and program your own receiver for your 
-
 existing remote controls.
 Or create your own remote control.
 
@@ -33,7 +30,9 @@ what is needed:
 ---------------------------------------------
 
 Arduino based board or
+
 Esp8266 based board or
+
 Esp32 based board.
 
 CC1101 433MHz version.
