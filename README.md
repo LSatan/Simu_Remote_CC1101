@@ -42,7 +42,7 @@ https://github.com/LSatan/SmartRC-CC1101-Driver-Lib
 ---------------------------------------------
 
 The library is based on the findings of this article https://pushstack.wordpress.com/somfy-rts-protocol/
-however, some things do not match for the above systems. Only the processing with xor for the code and a fraction of the 
+however, some things do not match for the above systems. Only the processing with xor for the code and the 
 crc processing are correct.
 In the following I will roughly explain how this system works.
 
