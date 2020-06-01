@@ -9,7 +9,7 @@ int Button0 = 3;  //Button0 pin 3
 int Button1 = 4;  //Button1 pin 4
 int Button2 = 5;  //Button2 pin 5
 int Button3 = 7;  //Button3 pin 7
-int ProgBtn = 8;  //Programming button pin 7
+int ProgBtn = 8;  //Programming button pin 8
 
 bool prg = 0;
 bool mode = 0;
