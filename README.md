@@ -1,4 +1,4 @@
-# Simu_Remote_C1101 v1.0
+# Simu Remote CC1101 v1.0
 ---------------------------------------------
 
 Donations needed:
