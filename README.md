@@ -1,9 +1,4 @@
 # Simu Remote CC1101 v1.0
----------------------------------------------
-
-Donations needed:
-Somfy RTS "Old Style" (56bit) should be included in the library. With the same functions. The integration of existing libraries is out of the question since it should be emulated as 100% as the TSA + remote control.
-For this purpose,  39.00 € is required for the corresponding remote control. I rely on donations for this purpose. In the following pool you can donate and see how much has already been raised. https://paypal.me/pools/c/8pFMW9lGp6
 
 ---------------------------------------------
 
