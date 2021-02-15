@@ -6,6 +6,14 @@
 #include <Arduino.h>
 #define pulse 650
 
+#if defined(ESP8266)
+    #define RECEIVE_ATTR ICACHE_RAM_ATTR
+#elif defined(ESP32)
+    #define RECEIVE_ATTR IRAM_ATTR
+#else
+    #define RECEIVE_ATTR
+#endif
+
 int RxPin = 2;
 int TxPin = 6;
 int hwbtn = 0;
@@ -41,9 +49,9 @@ ELECHOUSE_cc1101.setMHZ(433.42);
 void Simu::enableReceive(int pin){
 RxPin=pin;
 pinMode(RxPin,INPUT);
-interruptPin = digitalPinToInterrupt(RxPin);
+RxPin = digitalPinToInterrupt(RxPin);
 ELECHOUSE_cc1101.SetRx();
-attachInterrupt(interruptPin, handleInterrupt, CHANGE);
+attachInterrupt(RxPin, handleInterrupt, CHANGE);
 }
 ///////////////////////////////////////////////////////////
 void Simu::disableReceive(void){
@@ -397,7 +405,7 @@ encrypted_dec[i] = 0;
 attachInterrupt(interruptPin, handleInterrupt, CHANGE);
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
-void Simu::handleInterrupt() {
+void RECEIVE_ATTR Simu::handleInterrupt() {
 static unsigned long lastTime = 0;
 const long time = micros();
 const unsigned int duration = time - lastTime;
